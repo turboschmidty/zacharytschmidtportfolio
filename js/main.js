@@ -4,7 +4,6 @@
 let contentData = null;
 
 // DOM elements
-const themeToggle = document.getElementById('theme-toggle');
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -407,35 +406,35 @@ function populateProjectsFromResume() {
 
 // Initialize theme functionality
 function initializeTheme() {
+    const themeToggle = document.getElementById('theme-toggle');
+    if (!themeToggle) return;
+
     // Check for saved theme preference or default to light mode
     const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
-    
+
     // Update theme toggle icon
-    updateThemeToggleIcon(savedTheme);
-    
+    updateThemeToggleIcon(savedTheme, themeToggle);
+
     // Add click event listener
-    themeToggle.addEventListener('click', toggleTheme);
+    themeToggle.addEventListener('click', () => toggleTheme(themeToggle));
 }
 
 // Toggle theme function
-function toggleTheme() {
+function toggleTheme(themeToggle) {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
+
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-    updateThemeToggleIcon(newTheme);
+    updateThemeToggleIcon(newTheme, themeToggle);
 }
 
 // Update theme toggle icon
-function updateThemeToggleIcon(theme) {
+function updateThemeToggleIcon(theme, themeToggle) {
     const icon = themeToggle.querySelector('i');
-    if (theme === 'dark') {
-        icon.className = 'fas fa-sun';
-    } else {
-        icon.className = 'fas fa-moon';
-    }
+    if (!icon) return;
+    icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
 }
 
 // Initialize navigation functionality
