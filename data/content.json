@@ -1,0 +1,247 @@
+{
+  "personal": {
+    "name": "Zachary Schmidt",
+    "title": "Director of Help Desk & IT Management Professional",
+    "email": "zacharytaylorschmidt@gmail.com",
+    "phone": "(641) 596-0031",
+    "location": "Los Angeles, CA",
+    "bio": "With over 8 years of experience in IT management and enterprise solutions, I specialize in driving digital transformation through strategic vendor relationships, team leadership, and process optimization. Currently serving as Director of Help Desk at NEOGOV, I manage budgets exceeding $10M while implementing enterprise-wide technology solutions."
+  },
+  "experience": [
+    {
+      "period": "May 2023 - Present",
+      "position": "Director of Help Desk",
+      "company": "NEOGOV",
+      "location": "El Segundo, CA",
+      "type": "Hybrid",
+      "achievements": [
+        "Owned vendor relationships and oversaw budgets exceeding $10M, optimizing cost efficiency",
+        "Managed the implementation of OneLogin SSO and the migration to Okta in under 2 months",
+        "Directed cross-functional teams to implement enterprise-wide technology solutions",
+        "Drove cost savings through process automation and vendor optimization (Zylo)"
+      ]
+    },
+    {
+      "period": "Nov. 2021 – Feb. 2023",
+      "position": "IT Manager",
+      "company": "MasterClass",
+      "location": "San Francisco, CA",
+      "type": "Remote",
+      "achievements": [
+        "Designed a leadership pillar program to enhance skills, communication, and ownership over knowledge",
+        "Oversaw FreshService ticketing system onboarding, development, and launch",
+        "Managed purchasing, forecasting, and hardware management for both PC and MAC systems (via JAMF)",
+        "Developed IT infrastructure strategy, architecture, and processes, resulting in a 90% reduction in ticket backlog"
+      ]
+    },
+    {
+      "period": "April 2019 - Nov. 2021",
+      "position": "Technical Support Manager",
+      "company": "Hulu / Disney Streaming Services",
+      "location": "Santa Monica, CA",
+      "type": "On-site",
+      "achievements": [
+        "Led a team of 16 people in implementing ITIL best practices to improve technical support services",
+        "Managed break-fix support for 2000+ PC and MAC users across diverse IT infrastructures",
+        "Administered user lifecycle management for 3 entities supporting 3,000+ employees globally with SOX compliance",
+        "Provided administrative support for enterprise-level software including Office 365, Jira, Confluence, OKTA, DUO, Active Directory, Adobe, Zoom, Ivanti, Slack, and Google Workspace",
+        "Developed and executed automated app request flows, automating 1K+ tasks",
+        "Managed IT staff including recruitment, performance management and evaluations, and professional development"
+      ]
+    },
+    {
+      "period": "July 2016 - April 2019",
+      "position": "Helpdesk Technician Tier 2",
+      "company": "Milken Community Schools",
+      "location": "Los Angeles, CA",
+      "type": "On-site",
+      "achievements": [
+        "Managed JAMF administration, including scripting, installation, and deployment of all Apple devices",
+        "Provided ongoing support for campus-wide Cisco VOIP phones, Cisco Meraki switches, and classroom A/V technology",
+        "Supported projectors, Crestron units, and speakers for both staff and students"
+      ]
+    },
+    {
+      "period": "Aug. 2012 - May 2016",
+      "position": "Lead Technical Assistant",
+      "company": "Buena Vista University",
+      "location": "Storm Lake, IA",
+      "type": "On-site",
+      "achievements": [
+        "Provided technical support for university IT infrastructure",
+        "Assisted with hardware and software troubleshooting",
+        "Supported faculty and students with technology needs"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Certifications",
+      "icon": "fas fa-certificate",
+      "items": [
+        "CompTIA A+/SEC+/Net+",
+        "ITIL 4 Certified",
+        "Okta Certified Pro",
+        "JAMF CCE",
+        "Microsoft Certified (Azure, 365, Power Platforms)",
+        "Google IT Automation with Python",
+        "BetterCloud Certified Admin",
+        "LFCA: Linux Foundation"
+      ]
+    },
+    {
+      "name": "Identity & Access Management",
+      "icon": "fas fa-shield-alt",
+      "items": [
+        "Okta",
+        "PingOne",
+        "OneLogin",
+        "Active Directory",
+        "Azure AD",
+        "BetterCloud",
+        "Sailpoint",
+        "LastPass",
+        "1Password",
+        "Keeper"
+      ]
+    },
+    {
+      "name": "IT Service Management",
+      "icon": "fas fa-cogs",
+      "items": [
+        "ServiceNow",
+        "FreshService",
+        "JAMF",
+        "Munki",
+        "Ivanti",
+        "ManageEngine",
+        "Power Automate",
+        "Zapier"
+      ]
+    },
+    {
+      "name": "Cloud & Productivity",
+      "icon": "fas fa-cloud",
+      "items": [
+        "Office 365",
+        "Google Workspace",
+        "Azure",
+        "Adobe CC",
+        "Zoom",
+        "Slack",
+        "Box",
+        "Dropbox",
+        "Google Drive"
+      ]
+    },
+    {
+      "name": "Network & Infrastructure",
+      "icon": "fas fa-network-wired",
+      "items": [
+        "Cisco Meraki",
+        "Cisco VOIP",
+        "Avaya",
+        "Zoom Phone",
+        "Network Administration",
+        "Infrastructure Management"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "icon": "fas fa-project-diagram",
+      "items": [
+        "Trello",
+        "Asana",
+        "Jira",
+        "Confluence",
+        "Lucidchart",
+        "Airtable",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Design & Collaboration",
+      "icon": "fas fa-palette",
+      "items": [
+        "Sketch",
+        "Figma",
+        "Adobe Creative Cloud",
+        "Collaboration Tools",
+        "Visual Design",
+        "User Experience"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise SSO Migration",
+      "description": "Led the migration from OneLogin to Okta SSO platform in under 2 months, ensuring seamless user experience and enhanced security across the organization.",
+      "icon": "fas fa-key",
+      "technologies": ["Okta", "OneLogin", "Active Directory", "SAML", "SCIM"],
+      "impact": "Improved security posture and user experience for 3000+ employees"
+    },
+    {
+      "title": "IT Infrastructure Optimization",
+      "description": "Developed and implemented comprehensive IT infrastructure strategy resulting in 90% reduction in ticket backlog and significant cost savings through process automation.",
+      "icon": "fas fa-server",
+      "technologies": ["ITIL", "FreshService", "Process Automation", "Vendor Management"],
+      "impact": "90% reduction in ticket backlog, improved operational efficiency"
+    },
+    {
+      "title": "Multi-Entity User Management",
+      "description": "Administered user lifecycle management for 3 entities supporting 3,000+ employees globally with SOX compliance requirements.",
+      "icon": "fas fa-users",
+      "technologies": ["Active Directory", "Office 365", "SOX Compliance", "User Provisioning"],
+      "impact": "Maintained 100% SOX compliance across all entities"
+    },
+    {
+      "title": "Automated Workflow Implementation",
+      "description": "Developed and executed automated app request flows, successfully automating over 1,000 tasks and improving operational efficiency.",
+      "icon": "fas fa-robot",
+      "technologies": ["Power Automate", "Zapier", "Workflow Automation", "API Integration"],
+      "impact": "Automated 1000+ manual tasks, reduced processing time by 75%"
+    },
+    {
+      "title": "Enterprise Device Management",
+      "description": "Managed comprehensive JAMF administration including scripting, installation, and deployment of Apple devices across educational and corporate environments.",
+      "icon": "fas fa-laptop",
+      "technologies": ["JAMF", "Apple Device Management", "Scripting", "Mobile Device Management"],
+      "impact": "Streamlined device deployment and management for 2000+ devices"
+    },
+    {
+      "title": "Leadership Development Program",
+      "description": "Designed and implemented a leadership pillar program to enhance team skills, communication, and knowledge ownership across IT departments.",
+      "icon": "fas fa-graduation-cap",
+      "technologies": ["Team Leadership", "Training Programs", "Knowledge Management", "Professional Development"],
+      "impact": "Improved team performance and knowledge retention by 40%"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Arts",
+      "institution": "Buena Vista University",
+      "location": "Storm Lake, IA",
+      "period": "2012-2016"
+    }
+  ],
+  "additional_roles": [
+    {
+      "role": "IT Advisor",
+      "company": "DNAM Apparel"
+    },
+    {
+      "role": "Tech Teacher",
+      "company": "CommunityED"
+    },
+    {
+      "role": "Multimedia Consultant",
+      "company": "BVRMC"
+    }
+  ],
+  "stats": {
+    "years_experience": 8,
+    "budget_managed": "$10M+",
+    "users_supported": "3000+",
+    "team_size": 16
+  }
+}
