@@ -8,6 +8,14 @@ This is a personal portfolio website for Zachary Schmidt, an IT Management Profe
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+### July 18, 2025
+- Removed contact form from the contact section, keeping only contact information display
+- Fixed home section spacing issue by adjusting hero section CSS to account for fixed navigation
+- Updated hero section to use `calc(100vh - 4rem)` height and proper margin-top
+- Cleaned up unused contact form JavaScript and CSS styles
+
 ## System Architecture
 
 ### Frontend Architecture

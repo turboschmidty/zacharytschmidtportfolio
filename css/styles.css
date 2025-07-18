@@ -226,10 +226,11 @@ p {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   display: flex;
   align-items: center;
-  padding: 5rem 0;
+  padding: 6rem 0 4rem 0;
+  margin-top: 4rem;
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   position: relative;
   overflow: hidden;
@@ -641,9 +642,8 @@ p {
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-info {
@@ -689,41 +689,7 @@ p {
   color: var(--primary-color);
 }
 
-.contact-form {
-  background-color: var(--bg-primary);
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: var(--shadow-md);
-}
 
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 2px solid var(--border-color);
-  border-radius: 0.5rem;
-  background-color: var(--bg-secondary);
-  color: var(--text-primary);
-  transition: var(--transition);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-}
 
 /* Footer */
 .footer {
@@ -851,8 +817,7 @@ p {
   }
 
   .contact-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    justify-content: center;
   }
 
   .footer-content {

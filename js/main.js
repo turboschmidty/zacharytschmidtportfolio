@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeTheme();
     initializeNavigation();
     initializeScrollEffects();
-    initializeContactForm();
 });
 
 // Load content from JSON file
@@ -515,74 +514,7 @@ function initializeScrollEffects() {
     });
 }
 
-// Initialize contact form
-function initializeContactForm() {
-    const contactForm = document.getElementById('contact-form');
-    if (!contactForm) return;
-    
-    contactForm.addEventListener('submit', handleContactFormSubmit);
-}
 
-// Handle contact form submission
-function handleContactFormSubmit(event) {
-    event.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(event.target);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
-    
-    // Simulate form submission (in a real app, this would send to a server)
-    console.log('Form submitted:', { name, email, message });
-    
-    // Show success message
-    showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
-    
-    // Reset form
-    event.target.reset();
-}
-
-// Show notification function
-function showNotification(message, type = 'info') {
-    // Create notification element
-    const notification = document.createElement('div');
-    notification.className = `notification notification-${type}`;
-    notification.textContent = message;
-    
-    // Add styles
-    notification.style.cssText = `
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        padding: 1rem 2rem;
-        background-color: ${type === 'success' ? '#10b981' : '#3b82f6'};
-        color: white;
-        border-radius: 0.5rem;
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-        opacity: 0;
-        transform: translateY(-20px);
-        transition: all 0.3s ease;
-    `;
-    
-    document.body.appendChild(notification);
-    
-    // Animate in
-    setTimeout(() => {
-        notification.style.opacity = '1';
-        notification.style.transform = 'translateY(0)';
-    }, 100);
-    
-    // Remove after 5 seconds
-    setTimeout(() => {
-        notification.style.opacity = '0';
-        notification.style.transform = 'translateY(-20px)';
-        setTimeout(() => {
-            document.body.removeChild(notification);
-        }, 300);
-    }, 5000);
-}
 
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
