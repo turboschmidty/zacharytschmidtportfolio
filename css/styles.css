@@ -122,7 +122,6 @@ p {
 
 /* Theme Toggle */
 .theme-toggle {
-  position: fixed;
   top: 1rem;
   right: 1rem;
   z-index: 1000;
@@ -157,6 +156,11 @@ p {
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-color);
   transition: var(--transition);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
 }
 
 [data-theme="dark"] .nav {
@@ -229,8 +233,8 @@ p {
   min-height: calc(100vh - 4rem);
   display: flex;
   align-items: center;
-  padding: 6rem 0 4rem 0;
-  margin-top: 4rem;
+  padding: 8rem 0 4rem 0; /* increased top padding */
+  margin-top: 0; /* remove margin-top to avoid double spacing */
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   position: relative;
   overflow: hidden;
